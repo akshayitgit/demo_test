@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradients</title>
+    <style>
+        *{
+            height: 200px;
+            text-align: center;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .div1{
+            background-image:  linear-gradient(50deg,rgb(227, 121, 139),rgb(215, 175, 175),rgb(237, 237, 86));
+        }
+        .div2{
+            background-image: radial-gradient(rgb(222, 98, 98) 5%, rgb(211, 211, 93) 15%, rgb(57, 57, 244) 60%);
+        }
+        .div3 {
+            background-image: conic-gradient(rgb(240, 88, 88), rgb(218, 218, 47), rgb(187, 235, 187), rgb(149, 149, 226), white);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <p>CSS Linear Gradients</p>
+    </div>
+    <div class="div2">
+        <p>CSS Radial Gradients</p>
+    </div>
+    <div class="div3">
+        <p>CSS Conic Gradients</p>
+    </div>
+</body>
+
+</html>
